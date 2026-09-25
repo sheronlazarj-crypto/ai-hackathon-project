@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "scan": "node scripts/detect-secrets.js"
+    "scan": "node scripts/detect-secrets.js",
+    "check-rls": "node scripts/check-rls.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
